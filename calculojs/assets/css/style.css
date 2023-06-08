@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ffa5fa;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 90%;
+  overflow: hidden;
+}
+
+label {
+  font-size: 1em;
+  color: #df79ef;
+}
+
+h3 {
+  font-size: 1em;
+  color: #43004e;
+}
+
+
+.card {
+  border: rgb(31, 2, 54) 50px solid;
+  border-radius: 5%;
+  margin-right: 2em;
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 2, 54);
+}
+
+.card h2 {
+  font-size: 1em;
+  color: #df79ef;
+}
+
+h2 {
+  font-weight: 500;
+  padding: 15px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #df79ef;
+  padding: 10px
+}
+
+
+.card-body {
+  width: 100%;
+  text-align: center;
+}
+
+label {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+
+button {
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  color: rgb(245, 198, 233);
+  font-size: 1em;
+  width: 80%;
+  border: none;
+  background-color: #9d006e;
+}
+
+button:hover {
+  background-color: #ef79d9;
+  cursor: pointer;
+}
+
+.color-box {
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+}
